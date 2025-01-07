@@ -2,7 +2,6 @@
 from project_template.services.hello_world_service import HelloWorldService
 
 def main() -> None:
-    print("pasa por aqui")
     print("Hello world!!!")
     service = HelloWorldService()
     print(service.say_hello())
