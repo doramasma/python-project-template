@@ -20,7 +20,7 @@ clean:
 	@rm -rf .pytest_cache
 	@rm -rf .mypy_cache
 	@find ./ -name '*.pyc' -exec rm -f {} \;
-	@rm -rf src.egg-info
+	@rm -rf src/project_template.egg-info
 	@find ./ -name 'Thumbs.db' -exec rm -f {} \;
 	@find ./ -name '*~' -exec rm -f {} \;
 	@find ./ -name '__pycache__' -exec rm -rf {} \;
